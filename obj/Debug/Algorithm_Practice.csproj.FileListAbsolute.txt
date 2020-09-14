@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe.config
+C:\Users\Administrator\source\repos\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe
+C:\Users\Administrator\source\repos\Algorithm_Practice\bin\Debug\Algorithm_Practice.pdb
+C:\Users\Administrator\source\repos\Algorithm_Practice\obj\Debug\Algorithm_Practice.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Algorithm_Practice\obj\Debug\Algorithm_Practice.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Algorithm_Practice\obj\Debug\Algorithm_Practice.exe
+C:\Users\Administrator\source\repos\Algorithm_Practice\obj\Debug\Algorithm_Practice.pdb

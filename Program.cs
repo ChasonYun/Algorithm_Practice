@@ -10,10 +10,10 @@ namespace Algorithm_Practice
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 1, 1, 1};
+            int[] nums = new int[] { 2, 3, 9, 1, 8, 6 };
             Solution solution = new Solution();
 
-            int res = solution.MinMoves2(nums);
+            InsertionSort.Sort(ref nums);
         }
     }
 
@@ -23,7 +23,7 @@ namespace Algorithm_Practice
         {
             int sum = 0;
             QuickSort(ref nums, 0, nums.Length - 1);
-            for(int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 sum += Math.Abs(nums[nums.Length / 2] - nums[i]);
             }
@@ -46,7 +46,7 @@ namespace Algorithm_Practice
                 int i = left;
                 int j = right;
                 int middle = nums[(left + right) / 2];//轴
-                while (true)
+                while (i < j)
                 {
                     while (nums[i] < middle)
                     {
@@ -56,10 +56,10 @@ namespace Algorithm_Practice
                     {
                         j--;
                     }
-                    if (i >= j)
-                    {
-                        break;
-                    }
+                    //if (i >= j)
+                    //{
+                    //    break;
+                    //}
                     Swap(ref nums, i, j);
                     if (nums[i] == nums[j])
                     {
